@@ -9,7 +9,7 @@ Server Side
 You just need to Run following Command:
 docker-compose up -d
 
-You can Get access to APT   cacher by entering your http://Machine IP:3172 (192.168.110.200:3172)
+You can Get access to APT   cacher by entering your http://Machine IP:3142
 
 Client Side 
 =========================
@@ -26,8 +26,8 @@ Acquire::http::Proxy "http://YOUR-SERVER-IP:3142"
 
 Appending your APT Cacher URL:PORT to Your APT Repository Like:
 ```
-deb http://192.168.110.200:3142/ftp.debian.org/debian stable main contrib non-free
-deb-src http://192.168.110.200:3142/ftp.debian.org/debian stable main contrib non-free
-deb http://192.168.110..200:3142/HTTPS///get.docker.com/ubuntu docker main
+deb http://YOUR-SERVER-IP:3142/ftp.debian.org/debian stable main contrib non-free
+deb-src http://YOUR-SERVER-IP:3142/ftp.debian.org/debian stable main contrib non-free
+deb http://YOUR-SERVER-IP:3142/HTTPS///get.docker.com/ubuntu docker main
 
 ```
