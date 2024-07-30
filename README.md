@@ -9,7 +9,7 @@ Server Side
 You just need to Run following Command:
 docker-compose up -d
 
-You can Get access to APT   cacher by entering your http://Machine IP:3142
+You can Get access to APT   cacher by entering your http://YOUR-SERVER-IP:3142
 
 Client Side 
 =========================
