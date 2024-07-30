@@ -32,9 +32,3 @@ deb-src http://192.168.110.200:3142/ftp.debian.org/debian stable main contrib no
 deb http://192.168.110..200:3142/HTTPS///get.docker.com/ubuntu docker main
 
 ```
-
-Main Article is from :
-https://packops.dev 
-
-author : Farshad Nick 
-
