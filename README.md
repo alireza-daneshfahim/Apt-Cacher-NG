@@ -18,8 +18,7 @@ we can config our Client with Two Way
 **First Way**
 Send All APT Repository Requests to the Proxy Section By Creating **/etc/apt/apt.conf.d/02proxy** File  and Put Following Section To IT :
 ```
-Acquire::http { Proxy "http://192.168.110.200:3142"; };
-# 192.168.110.200 is our apt-cacher-ng ip
+Acquire::http::Proxy "http://YOUR-SERVER-IP:3142"
 ```
 **OR**
 
